@@ -1,0 +1,283 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    
+}
+ .title{
+    margin: 20px;
+    color: rgb(2, 2, 142);
+    
+
+ }
+#logo{
+    background-color: white;
+    height: 50%;
+    margin:  20px;
+}
+ 
+#logo img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#contact{
+    margin-left: 200px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-weight: lighter;
+    color: rgb(2, 2, 69);
+  
+}
+.icon{
+    margin: 20px;
+    color: rgb(2, 2, 69);
+    padding: 10px;
+    border-radius: 100px;
+   
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#contact  :hover{
+    color:lightblue;
+}
+#tryforfree{
+    margin: 25px;
+    padding: 10px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(3, 99, 3);
+    border-radius: 5px;
+}
+#tryforfree:hover{
+    background-color: black;
+}
+
+
+#fakepage{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(188, 31, 31);
+   
+}
+
+
+
+#page1{
+    height:85%;
+    width: 100%;
+   
+
+}
+
+
+
+
+#blueborder{ 
+    height: 7%;
+    width: 100%;
+    background: rgb(2, 2, 98);
+    color: white;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#middle{
+    display:flex;
+    height: 73%;
+    width: 100%;
+     background-image: url(php-marquee-starter-lg-bg.jpeg);
+     background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 100%;
+    width: 40%;
+    
+    margin-top: 30px;
+    }
+#box1 h1{
+    font-weight: 600 ;
+    margin: 30px 20px;
+    font-size: 60px;
+    color: rgb(3, 12, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box1 p{
+    font-size: x-large;
+    font-weight: lighter;
+    color: ;
+    
+}
+
+#box1button{
+    display: flex;
+    padding: 25px;
+   
+     
+
+}
+#button1{
+   background-color: rgb(67, 161, 255);
+   border-radius: 5%;
+   padding: 15px 30px;
+   margin: 10px;
+}
+#button1:hover{
+    background-color:rgb(3, 12, 65) ;
+    color: white;
+}
+#button2{
+   color: aqua;
+   border-color: aqua;
+   border: 1px solid;
+   padding: 15px 30px;
+   margin: 10px;
+
+}
+#button2:hover{
+       color: rgb(3, 12, 65);
+       border-color: rgb(3, 12, 65);
+       background-color: rgb(184, 237, 255);
+}
+#box2{
+     
+     height: 100%;
+     width: 40%;
+     
+  
+     margin-top: 30px;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+    
+}
+#vedio{
+    height: 50%;
+    width: 100%;
+    
+    padding: 50px 15px;
+    border: 10px;
+    border-radius: 5%;
+   
+}
+#vedio video{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+
+#baseline{
+    background-color: white;
+    height: 20% ;
+    width: 100%;
+    font-size: x-large;
+    letter-spacing: normal;
+    
+   align-items: center;
+   display: flex;
+  justify-content: center;
+  
+    
+}
+#page2{
+    height:85%;
+    width: 100%;
+    background-image: url(pb-hp-products-bg.png);
+     box-sizing: border-box;
+}
+#centre{
+    width: 100%;
+    height: 55%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+#cd1{
+    height: 100%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: space-between;
+    border: solid rgb(242, 234, 234);
+    background-image: url(image/pb-hp-product-smb_icon-1.jpeg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+}
+#cd2{
+    height: 100%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: space-between;
+    border: solid rgb(242, 234, 234);
+    background-image: url(image/pb-hp-product-smb_icon-2.jpeg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+     
+}
+#cd3{
+    height: 100%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: space-between;
+    border: solid rgb(242, 234, 234);
+    background-image: url(image/pb-hp-product-smb_icon-3.jpeg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+}
+#cd4{
+    height: 100%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: space-between;
+    border: solid rgb(242, 234, 234);
+    background-image: url(image/pb-hp-product-smb_icon-4.jpeg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+}
+#page3{
+    height: 85%;
+    width: 100%;
+    background-color: brown;
+}

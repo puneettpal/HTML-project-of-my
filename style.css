@@ -217,7 +217,11 @@ html,body{
     width: 100%;
     background-image: url(pb-hp-products-bg.png);
      box-sizing: border-box;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: block;
 }
+
 #centre{
     width: 100%;
     height: 55%;
@@ -277,7 +281,40 @@ html,body{
     background-repeat: no-repeat;
 }
 #page3{
-    height: 85%;
+    height: 45%;
     width: 100%;
     background-color: white;
+    justify-content: center;
+    display: flex;
+    
+
+}
+#topdiv{
+    width: 60%;
+    height: 65%;
+     
+    text-align: center;
+}
+#box2button{
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+}
+#topdiv h1{
+    font-size: 48px;
+    color: #032d60;
+    font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    FO
+}
+#topdiv h3{
+    margin-top: 20px;
+    
+    color: #181818;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.012rem;
+    line-height: 28px;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

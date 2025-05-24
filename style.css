@@ -220,6 +220,7 @@ html,body{
      background-repeat: no-repeat;
      background-size: cover;
      display: block;
+     background-position: center;
 }
 
 #centre{
@@ -306,15 +307,46 @@ html,body{
     font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 56px;
     letter-spacing: -0.01em;
-    FO
+    
 }
-#topdiv h3{
+#topdiv P{
     margin-top: 20px;
     
     color: #181818;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: -0.012rem;
+    line-height: 28px;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+section{
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+#bottomdiv{
+    height: 100%;
+    width: 60%;
+  
+    text-align: center;
+ }
+#bottomdiv h1{
+    font-size: 40px;
+    color: #032d60;
+    font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    
+}
+#bottomdiv P{
+    margin-top: 20px;
+    
+    color: #181818;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.0012em;
     line-height: 28px;
     font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

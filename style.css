@@ -216,11 +216,11 @@ html,body{
     height:85%;
     width: 100%;
     background-image: url(pb-hp-products-bg.png);
-     box-sizing: border-box;
+    
      background-repeat: no-repeat;
-     background-size: cover;
-     display: block;
+     background-size:cover;
      background-position: center;
+     
 }
 
 #centre{
@@ -349,4 +349,25 @@ section{
     letter-spacing: -0.0012em;
     line-height: 28px;
     font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#page4{
+    height: 85%;
+    width: 100%;
+}
+   
+#top{
+    height: 65%;
+    width: 100%;
+    display: flex;
+      justify-content: center;
+      
+      
+    
+}
+.b{
+    
+     height: 100%;
+    width: 25%;
+    margin: 28px;
+    border: solid rgb(242, 234, 234);
 }
